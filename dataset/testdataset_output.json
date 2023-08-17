@@ -1,0 +1,21 @@
+{
+	"name": "testdataset_output",
+	"properties": {
+		"description": "This is my first pipeline which copies data from source storage account to since storage account",
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "testdataset.output",
+				"folderPath": "output",
+				"container": "sink"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

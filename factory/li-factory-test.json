@@ -1,0 +1,9 @@
+{
+	"name": "li-factory-test",
+	"location": "canadaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "942244fc-bb80-48ed-b57c-ec2635b4fc28",
+		"tenantId": "97cf8865-889a-4807-acff-0e1f77610451"
+	}
+}
