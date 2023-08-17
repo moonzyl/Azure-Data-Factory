@@ -1,5 +1,5 @@
 {
-	"name": "employee_department",
+	"name": "employee_department_partition2",
 	"properties": {
 		"description": "Combine employee and department files",
 		"type": "MappingDataFlow",
